@@ -3,62 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <h2>Registration</h2>
-    <div id="main">
-        <form id="form1">
-         <table cellsapcing:"10">
-             <tr>
-                <td>
-                     <label for="fname">Full Name</label>
-                    <input type="text" id="fname">
-                    <label for="lname">Username</label>
-                    <input type="text" id="fname">
-                </td>
-                   
-                </tr>
-               <tr>
-                <td>
-                    <label for="email">Email</label>
-                <input type="email" id="email"> 
-                <label for="phone">Phone Number</label>
-                <input type="phone" id="phone">
-                </td>
-                
-               </tr>
-               <tr>
-                <td>
-                     <label for="password">Password</label>
-                <input type="password" id="password">
-                <label for="confirmpassword">ConfrimPassword</label>
-                <input type="confirmpassword" itemref="confirmpassword">
-                </td>
-               
-               </tr>
-               <tr>
-                <td>
-                    <input type="radio" name="flang" id="html">
-                <label for="html">HTML</label>
-                <input type="radio" name="flang" id="css">
-                <label for="css">CSS</label>
-                <input type="radio" name="flang" id="js">
-                <label for="js">JS</label>
-                </td>
-                
+    <section class="conatiner">
+        <header>Registration form</header>
+        <form action="#" class="form">
+             <label> Full Name</label>
+            <div class="column1">
+                <div class="input-box1">
+                    <input type="text" placeholder="Enter full Name" required>
+                </div>
+            </div>
+                <label>Username</label>
+                <div class="input-box1">
+                    <input type="text" placeholder="Enter your Username" required>
+                </div>
+            </div>
+            <div class="column1">
+                 <label>Email</label>
+                <div class="input-box2">
+                    <input type="email" placeholder="Enter your Email" required>
+                </div>
+                <label>Phone Number</label>
+                <div class="input-box2">
+                    <input type="phone" placeholder="Enter your Number" required>
+                </div>
+            </div>
+            <div class="column1"> 
+                <label>Password</label>
+                <div class="input-box2">
+                    <input type="password" placeholder="Enter you password" required>
+                </div>
+                <div class="input-box2">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Confirm your password" required>
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked>
+                        <label for="check-male">male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" checked>
+                        <label for="check-female">female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" name="gender" id="not-prefer">
+                        <label for="not-prefer">prefer not to say</label>
+                    </div>
+                </div>
 
-               </tr>
-         </table>
-         <button><h3>Regsiter</h3></button>
-           
-
+            </div>
         </form>
-    </div>
+    </section>
 </body>
 
 </html>
