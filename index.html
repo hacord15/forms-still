@@ -10,56 +10,64 @@
 
 <body>
     <section class="conatiner">
-        <header>Registration form</header>
+        <header class="upar">Registration form</header>
         <form action="#" class="form">
-             <label> Full Name</label>
-            <div class="column1">
-                <div class="input-box1">
-                    <input type="text" placeholder="Enter full Name" required>
+            <div class="user-details">
+
+
+                <label> Full Name</label>
+                <div class="column1">
+                    <div class="input-box1">
+                        <input type="text" placeholder="Enter full Name" required>
+                    </div>
                 </div>
-            </div>
                 <label>Username</label>
                 <div class="input-box1">
                     <input type="text" placeholder="Enter your Username" required>
                 </div>
-            </div>
-            <div class="column1">
-                 <label>Email</label>
-                <div class="input-box2">
-                    <input type="email" placeholder="Enter your Email" required>
-                </div>
-                <label>Phone Number</label>
-                <div class="input-box2">
-                    <input type="phone" placeholder="Enter your Number" required>
-                </div>
-            </div>
-            <div class="column1"> 
-                <label>Password</label>
-                <div class="input-box2">
-                    <input type="password" placeholder="Enter you password" required>
-                </div>
-                <div class="input-box2">
-                    <label>Confirm Password</label>
-                    <input type="password" placeholder="Confirm your password" required>
-                </div>
-            </div>
-            <div class="gender-box">
-                <h3>Gender</h3>
-                <div class="gender-option">
-                    <div class="gender">
-                        <input type="radio" id="check-male" name="gender" checked>
-                        <label for="check-male">male</label>
-                    </div>
-                    <div class="gender">
-                        <input type="radio" id="check-female" checked>
-                        <label for="check-female">female</label>
-                    </div>
-                    <div class="gender">
-                        <input type="radio" name="gender" id="not-prefer">
-                        <label for="not-prefer">prefer not to say</label>
-                    </div>
-                </div>
 
+                <label>Email</label>
+                <div class="column1">
+                    <div class="input-box1">
+                        <input type="email" placeholder="Enter your Email" required>
+                    </div>
+                    <label>Phone Number</label>
+                    <div class="input-box1">
+                        <input type="phone" placeholder="Enter your Number" required>
+                    </div>
+                </div>
+                <div class="column1">
+                    <label>Password</label>
+                    <div class="input-box1">
+                        <input type="password" placeholder="Enter you password" required>
+                    </div>
+                    <label>Confirm Password</label>
+                    <div class="input-box1">
+                        <input type="password" placeholder="Confirm your password" required>
+                    </div>
+                </div>
+                <div class="gender-box">
+                    <h3>Gender</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender" checked>
+                            <label for="check-male">male</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender" checked>
+                            <label for="check-female">female</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="not-prefer" name="gender">
+                            <label for="not-prefer">prefer not to say</label>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="large-button">
+                    <h5>Register</h5>
+                </button>
             </div>
         </form>
     </section>
