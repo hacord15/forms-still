@@ -1,46 +1,67 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.conatiner{
+
+.container {
   max-width: 700px;
   width: 100%;
-  background:#fff;
+  background: #fff;
   padding: 25px 30px;
   border-radius: 5px;
 }
-.conatiner .upar{
+
+.container .header {
   font-size: 25px;
   font-weight: 500;
   position: relative;
 }
-.conatiner .upar::before{
+
+.container .header::before {
   content: '';
   position: absolute;
   left: 0;
   bottom: 0;
   height: 3px;
   width: 30px;
-  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.conatiner form .user-details{
+
+.container form .user-details {
   display: flex;
   flex-wrap: wrap;
 }
-form .user-details .input-box1{
-   width: calc(100% / 2 -20px) ;
-} 
-.user-details .input-box1 .details{
+
+.user-details .input-box {
+  width: calc(50% - 20px);
+}
+
+.user-details .input-box .details {
   font-weight: 500;
   margin-bottom: 5px;
+}
+.register-button {
+  background-color: #71b7e6; /* Change the background color to match your design */
+  color: #fff; /* Text color */
+  font-size: 18px; /* Increase the font size */
+  padding: 15px 30px; /* Increase padding for a larger button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #9b59b6; /* Change the background color on hover */
 }
