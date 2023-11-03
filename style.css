@@ -4,9 +4,19 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
+.login-form {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 206, 211);
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    cursor: grab;
+  }
 .login-form .content {
     padding: 35px;
     text-align: center;
+    
 }
 .login-form .action {
     display: -webkit-box;
@@ -59,8 +69,9 @@
     transition: all .3s;
 }
 body {
-    background: #e35869;
+    background: #161616;
     font-family: 'Rubik', sans-serif;
+    position: relative;
 }
 .login-form {
     background: #fff;
