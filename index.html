@@ -1,76 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <section class="conatiner">
-        
-        <header class="upar">Registration form</header>
-        <form action="#" class="form">
-            <div class="user-details">
-
-
-                <label> Full Name</label>
-                <div class="column1">
-                    <div class="input-box1">
-                        <input type="text" placeholder="Enter full Name" required>
-                    </div>
-                </div>
-                <label>Username</label>
-                <div class="input-box1">
-                    <input type="text" placeholder="Enter your Username" required>
-                </div>
-
-                <label>Email</label>
-                <div class="column1">
-                    <div class="input-box1">
-                        <input type="email" placeholder="Enter your Email" required>
-                    </div>
-                    <label>Phone Number</label>
-                    <div class="input-box1">
-                        <input type="phone" placeholder="Enter your Number" required>
-                    </div>
-                </div>
-                <div class="column1">
-                    <label>Password</label>
-                    <div class="input-box1">
-                        <input type="password" placeholder="Enter you password" required>
-                    </div>
-                    <label>Confirm Password</label>
-                    <div class="input-box1">
-                        <input type="password" placeholder="Confirm your password" required>
-                    </div>
-                </div>
-                <div class="gender-box">
-                    <h3>Gender</h3>
-                    <div class="gender-option">
-                        <div class="gender">
-                            <input type="radio" id="check-male" name="gender" checked>
-                            <label for="check-male">male</label>
-                        </div>
-                        <div class="gender">
-                            <input type="radio" id="check-female" name="gender" checked>
-                            <label for="check-female">female</label>
-                        </div>
-                        <div class="gender">
-                            <input type="radio" id="not-prefer" name="gender">
-                            <label for="not-prefer">prefer not to say</label>
-                        </div>
-                    </div>
-
-
-                </div>
-                <button class="register-button">Register</button>
-
+    <div class="login-form">
+        <h1>Login</h1>
+        <div class="content">
+            <div class="input-field">
+                <input type="email" placeholder="Email" autocomplete="nope">
             </div>
-        </form>
-    </section>
+            <div class="input-field">
+                <input type="password" placeholder="Password">
+            </div>
+            <a href="#" class="link">Forgot Your Password</a>
+        </div>
+        <div class="action">
+            <button>Register</button>
+            <button>Sign in</button>
+        </div>
+    </div>
 </body>
-
 </html>
